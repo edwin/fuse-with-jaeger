@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rest path="/hello-world" xmlns="http://camel.apache.org/schema/spring">
+    <get>
+        <route>
+            <setHeader headerName="Content-Type">
+                <constant>application/json</constant>
+            </setHeader>
+            <setBody>
+                <simple>{ "hello": "world" }</simple>
+            </setBody>
+        </route>
+    </get>
+</rest>

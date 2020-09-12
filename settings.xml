@@ -28,12 +28,6 @@
                     <name>Enterprise Releases</name>
                     <url>https://maven.repository.redhat.com/earlyaccess/all</url>
                 </repository>
-
-                <repository>
-                    <id>spring-milestones</id>
-                    <name>Spring Milestones</name>
-                    <url>https://repo.spring.io/libs-milestone</url>
-                </repository>
             </repositories>
 
             <pluginRepositories>

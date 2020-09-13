@@ -29,7 +29,7 @@ mvn spring-boot:run -s settings.xml
 Blog Post
 ------------------
 ```
-TBA
+https://edwin.baculsoft.com/2020/09/tracing-red-hat-fuse-transaction-with-jaeger/
 ```
 
 Reference 
